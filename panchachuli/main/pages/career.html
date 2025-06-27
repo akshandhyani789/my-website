@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join Our Team</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 80px auto;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+      /* padding: 24px;
+      min-height: 100vh; */
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+      /* display: grid;
+      place-items: center; */
+    }
+    .career{
+       display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      transition: box-shadow 0.3s;
+    }
+
+    .card:hover {
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      font-family: cursive;
+      font-size: 2.5rem;
+      color: #d97706; /* yellow-600 */
+      margin-bottom: 24px;
+    }
+
+    p {
+      color: #4b5563;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .email-box {
+      position: relative;
+      background: #f9fafb;
+      padding: 20px;
+      margin-top: 24px;
+      border-radius: 12px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+    }
+
+    .email-box p {
+      color: #2563eb;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .email-box::after {
+      content: '';
+      position: absolute;
+      top: 0; bottom: 0; left: 0; right: 0;
+      border: 1px solid #bfdbfe;
+      border-radius: 12px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .email-box:hover::after {
+      opacity: 1;
+    }
+
+    .note {
+      color: #9ca3af;
+      font-size: 14px;
+      margin-top: 32px;
+    }
+
+
+  </style>
+</head>
+<body>
+<div class="career">
+  <div class="card">
+    <h1>Join Our Team</h1>
+    <p>
+      We are always looking for talented individuals to join our mission. If you're passionate about making a difference, we'd love to hear from you.
+    </p>
+
+    <div class="email-box">
+      <p>info@vincularfoundation.org</p>
+    </div>
+
+    <p class="note">
+      We will review your application and reach out if a suitable position becomes available.
+    </p>
+  </div>
+</div>
+</body>
+</html>

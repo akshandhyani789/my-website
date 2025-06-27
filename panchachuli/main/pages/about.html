@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Story</title>
+  <style>
+
+
+    .about{
+        margin-top: 80px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #d97706; /* Yellow-600 */
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-family: cursive; /* simulate 'Gellatio' if not imported */
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .grid > div {
+      flex: 1 1 100%;
+    }
+
+    @media (min-width: 768px) {
+      .grid > div {
+        flex: 1 1 50%;
+      }
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      color: #1f2937; /* Neutral-800 */
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #1f2937;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      text-align: justify;
+      font-weight: 300;
+    }
+
+    .image-box {
+      position: relative;
+      height: 320px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-box .bg {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-size: cover;
+      background-position: center;
+      background-image: url("https://panchachuli.in/about/support.jpg");
+    }
+  </style>
+</head>
+<body>
+<div class="about">
+  <div class="container">
+    <h1>Our Story</h1>
+    <div class="grid">
+      <div>
+        <h2>Supporting Rural Women in Kumaon Region of Uttarakhand</h2>
+        <p>Weaving has been an age-old tradition in the Kumaon region—a quiet but powerful expression of the local way of life. Yet, over the years, this rich heritage began to fade, and the incredible skill of women weavers remained largely unrecognized.</p>
+        <p>In 1991, Munni Mehta, our first employee and a true changemaker, took it upon herself to revive this legacy. Going door to door in remote villages, she was one of them who encouraged women to pick up the loom and turn their ancestral craft into a source of livelihood. At the time, it was uncommon—and often discouraged—for women to work outside their homes. Many were hesitant, but Munni's persistence and deep belief in their potential gradually built trust. A few women joined, and soon, their small efforts grew into a collective strength.</p>
+        <p>This revival laid the foundation for what would later become Panchachuli Handlooms™, an initiative formally supported by the Vincular Foundation since 2024. As a non-profit committed to empowering rural communities, Vincular Foundation provides training, infrastructure, and access to markets, ensuring these artisans are not only preserving a tradition but also earning sustainable incomes.</p>
+        <p>Today, what began as a grassroots effort has blossomed into a vibrant, women-led weaving movement—rooted in heritage, resilience, and dignity.</p>
+      </div>
+      <div class="image-box">
+        <div class="bg"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

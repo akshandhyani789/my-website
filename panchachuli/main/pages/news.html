@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News Section</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: 80px auto 0px;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #d97706; /* Yellow-600 */
+      margin-bottom: 40px;
+      font-family: cursive;
+    }
+
+    .news-card {
+      display: flex;
+      flex-direction: column;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: box-shadow 0.3s;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .news-card:hover {
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .news-image {
+      width: 100%;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .news-content {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: gray;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+    }
+
+    .tag {
+      background: #e0e7ff;
+      color: #3730a3;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: #1f2937;
+    }
+
+    p {
+      font-size: 15px;
+      color: #4b5563;
+      line-height: 1.6;
+    }
+
+    .read-more {
+      align-self: start;
+      padding: 10px 20px;
+      background: linear-gradient(to right, #6366f1, #8b5cf6);
+      color: white;
+      border: none;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .read-more:hover {
+      transform: translateY(-3px);
+    }
+
+    @media (min-width: 768px) {
+      .news-card {
+        flex-direction: row;
+        height: 400px;
+      }
+
+      .news-image {
+        flex: 2;
+        height: 100%;
+      }
+
+      .news-content {
+        flex: 3;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <h2>News</h2>
+
+  <div class="news-card">
+    <div class="news-image" style="background-image: url('https://panchachuli.in/_next/image?url=%2Fnews%2F1%2Fmodi.jpg&w=640&q=75');"></div>
+
+    <div class="news-content">
+      <div>
+        <div class="meta">
+          <span>March 08, 2025</span>
+          <span>•</span>
+          <div class="tags">
+            <span class="tag">Official Visit</span>
+            <span class="tag">Recognition</span>
+            <span class="tag">One District One Product</span>
+          </div>
+        </div>
+
+        <h3>
+          Our women weavers presented our handcrafted products to Prime Minister Shri Narendra Modi at an event in Uttarkashi.
+        </h3>
+
+        <p>
+          Uttarkashi, Uttarakhand - In a moment of immense pride, women weavers from Almora had the honour of presenting their han...
+        </p>
+      </div>
+
+      <button class="read-more">Read More</button>
+    </div>
+  </div>
+
+</section>
+
+</body>
+</html>
